@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="st.css">
+	</head>
+	<body>
+		<script src="a.js"></script>
+	<table table align="left" width="100%">
+		<tr>
+			<th>
+				<canvas id="c1" width="600" height="600"></canvas>
+				<br>
+				<div>
+					<t1 class="our1" id = "shours">0</t1>
+					<span class="time1"> : </span>
+					<t1 class="min1" id = "sminutes">0</t1>
+					<span class="time1"> : </span>
+					<t1 class="sec1" id = "sseconds">0</t1>
+				</div>
+			</th>
+			<th style="text-align: left; vertical-align: top">
+				<input class="text1" type="text" size="5" id="hh"> <t1 class="text1">Часов</t1><br>
+				<input class="text1" type="text" size="5" id="mm"> <t1 class="text1">Минут</t1><br>
+				<input class="text1" type="text" size="5" id="ss"> <t1 class="text1">Секунд</t1><br>
+				<t1 class="text1">Сообщение</t1> <input class="text1" type="comment" id="msg"><br>
+				<input class="button1" value="Создать ивент" type="button" onclick="settime()"><br><br>
+
+				<t1 class="text1">Ивенты:</t1>
+				<div class="text1" id="evnts"></div>
+			</th>
+		</tr>
+	</table>
+	</body>
+</html>
